@@ -29,13 +29,24 @@
 
   /* MEDIA QUERIES */
 
- /* NAVBAR */
+  /* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+ /* NAVBAR */
  
 
   /* JUMBOTRON */
 
-  .jumbotron, jumbotron-fluid {
+  .jumbotron, .jumbotron-fluid {
     background-image: url("../assets/images/ricardo-rocha-nj1bqRzClq8-unsplash.jpg");
   }
 
@@ -63,5 +74,29 @@
 
 
 /* ABOUT SECTION */
+
+#about {
+  margin-left: 10px;
+}
+
+#contact {
+  display:block;
+  margin-right: auto;
+}
+
+/* HYPERLINKS HOVER EFFECT BOX SHADOW */
+.contact-link:hover {
+  box-shadow:rgb(86, 92, 92);
+}
+
+/* FOOTER */
+
+  #footer {
+    padding-top:50px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
