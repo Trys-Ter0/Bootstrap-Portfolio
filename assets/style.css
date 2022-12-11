@@ -4,9 +4,9 @@
   }
   
   body {
-    margin: 0;
+    margin: 5px;
     margin-top: 600px;
-    padding: 0;
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
@@ -28,8 +28,17 @@
 
   /* MEDIA QUERIES */
 
-  /* NAVBAR */
+ 
 
   /* JUMBOTRON */
 
-  /*  */
+  .jumbotron {
+    background-image: url("assets/images/02-hero-bg.jpg");
+  }
+
+
+
+  /* WORK SECTION */
+
+
+
