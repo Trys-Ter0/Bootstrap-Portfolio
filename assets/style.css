@@ -4,9 +4,9 @@
   } */
   
   body {
-    margin: 0;
+    margin: 5px;
     margin-top: 0;
-    padding: 0;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     background-color: rgb(213, 230, 230);
@@ -60,5 +60,8 @@
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+
+
+/* ABOUT SECTION */
 
 
